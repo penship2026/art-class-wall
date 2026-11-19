@@ -1,0 +1,67 @@
+/* gallery 展墙（默认） */
+:root[data-theme="gallery"]{
+  --bg:#f7f4ee;--paper:#fffdf8;--ink:#2b2622;--sub:#6b625a;--line:#e3dccf;
+  --accent:#c8553d;--mat:#f1e8d6;--accent2:transparent;
+  --card-shadow:0 12px 26px rgba(70,52,32,.11);
+  --chip-line:rgba(200,85,61,.35);--accent-text:#a94530;--faint:#a19585;--focus:#c8553d;
+  --skeleton:#e9e2d6;--pin:radial-gradient(circle at 32% 30%,#e8937f,#c8553d 60%,#8d3a28);
+  --pop:#fffdf8;--scrim:rgba(35,28,22,.5);
+  --serif:"Songti SC","Noto Serif SC","SimSun",serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:6px;--radius-chip:2px;--tilt-a:-.6deg;--tilt-b:.45deg;
+  --texture:repeating-linear-gradient(0deg,rgba(120,100,70,.5) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(120,100,70,.35) 0 1px,transparent 1px 4px);
+  --texture-opacity:.05;--pin-display:block;--tab-line-h:2px;--tab-line-radius:0;
+}
+/* playful 童趣 */
+:root[data-theme="playful"]{
+  --bg:#fffdf7;--paper:#ffffff;--ink:#233240;--sub:#5b6874;--line:#f0e6da;
+  --accent:#ff7a59;--mat:#fff4e6;--accent2:#3aa7d9;
+  --card-shadow:0 10px 22px rgba(255,122,89,.18);
+  --chip-line:transparent;--accent-text:#c14d2b;--faint:#8796a2;--focus:#3aa7d9;
+  --skeleton:#f2ece3;--pin:none;--pop:#ffffff;--scrim:rgba(35,28,22,.5);
+  --serif:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:16px;--radius-chip:10px;--tilt-a:0deg;--tilt-b:0deg;
+  --texture:radial-gradient(circle,rgba(255,122,89,.35) 1.5px,transparent 1.6px),radial-gradient(circle,rgba(58,167,217,.3) 1.5px,transparent 1.6px);
+  --texture-opacity:.16;--pin-display:none;--tab-line-h:3px;--tab-line-radius:2px;
+}
+:root[data-theme="playful"] .nav{border-bottom:0;background:#fff7ec}
+:root[data-theme="playful"] .hero h2{font-weight:700;font-size:40px;letter-spacing:0}
+:root[data-theme="playful"] .chip{color:#fff;background:var(--accent2);border:0;border-radius:var(--radius-chip)}
+:root[data-theme="playful"] .btn.primary{color:#fff}
+/* paper 素纸 */
+:root[data-theme="paper"]{
+  --bg:#ffffff;--paper:#ffffff;--ink:#1a1a1a;--sub:#6b6b6b;--line:#e6e6e6;
+  --accent:#1a1a1a;--mat:#ffffff;--accent2:transparent;
+  --card-shadow:none;--chip-line:rgba(26,26,26,.25);--accent-text:#1a1a1a;--faint:#999999;--focus:#1a1a1a;
+  --skeleton:#eeeeee;--pin:none;--pop:#ffffff;--scrim:rgba(0,0,0,.45);
+  --serif:"Helvetica Neue",Arial,sans-serif;
+  --sans:"Helvetica Neue",Arial,sans-serif;
+  --radius-card:0;--radius-chip:0;--tilt-a:0deg;--tilt-b:0deg;
+  --texture:none;--texture-opacity:0;--pin-display:none;--tab-line-h:2px;--tab-line-radius:0;
+}
+:root[data-theme="paper"] .card{box-shadow:none;border:1px solid var(--line);transform:none;border-radius:0}
+:root[data-theme="paper"] .scard{box-shadow:none;border:1px solid var(--line);transform:none;border-radius:0}
+:root[data-theme="paper"] .nav,
+:root[data-theme="paper"] .subnav,
+:root[data-theme="paper"] .tabs,
+:root[data-theme="paper"] .filterbar{background:#fff}
+:root[data-theme="paper"] .btn.primary{color:#fff}
+/* night 夜展 */
+:root[data-theme="night"]{
+  --bg:#14120f;--paper:#1c1915;--ink:#ece3d3;--sub:#a2977f;--line:#2f2a22;
+  --accent:#d9a441;--mat:#efe4cf;--accent2:transparent;
+  --card-shadow:0 16px 30px rgba(0,0,0,.5);
+  --chip-line:rgba(217,164,65,.4);--accent-text:#d9a441;--faint:#7e7462;--focus:#d9a441;
+  --skeleton:#26221c;--pin:radial-gradient(circle at 32% 30%,#f0cd80,#d9a441 60%,#8a6420);
+  --pop:#1c1915;--scrim:rgba(0,0,0,.65);
+  --serif:"Songti SC","Noto Serif SC","SimSun",serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:6px;--radius-chip:2px;--tilt-a:-.5deg;--tilt-b:.5deg;
+  --texture:none;--texture-opacity:0;--pin-display:block;--tab-line-h:2px;--tab-line-radius:0;
+}
+:root[data-theme="night"] .card .img{border:8px solid var(--mat)}
+:root[data-theme="night"] .subnav,
+:root[data-theme="night"] .tabs,
+:root[data-theme="night"] .filterbar{background:rgba(28,25,21,.55)}
+:root[data-theme="night"] .btn.primary{color:#1c1915}

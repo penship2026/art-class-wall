@@ -1,0 +1,17 @@
+/* playful 童趣 */
+:root[data-theme="playful"]{
+  --bg:#fffdf7;--paper:#ffffff;--ink:#233240;--sub:#5b6874;--line:#f0e6da;
+  --accent:#ff7a59;--mat:#fff4e6;--accent2:#3aa7d9;
+  --card-shadow:0 10px 22px rgba(255,122,89,.18);
+  --chip-line:transparent;--accent-text:#c14d2b;--faint:#8796a2;--focus:#3aa7d9;
+  --skeleton:#f2ece3;--pin:none;--pop:#ffffff;--scrim:rgba(35,28,22,.5);
+  --serif:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:16px;--radius-chip:10px;--tilt-a:0deg;--tilt-b:0deg;
+  --texture:radial-gradient(circle,rgba(255,122,89,.35) 1.5px,transparent 1.6px),radial-gradient(circle,rgba(58,167,217,.3) 1.5px,transparent 1.6px);
+  --texture-opacity:.16;--pin-display:none;--tab-line-h:3px;--tab-line-radius:2px;
+}
+:root[data-theme="playful"] .nav{border-bottom:0;background:#fff7ec}
+:root[data-theme="playful"] .hero h2{font-weight:700;font-size:40px;letter-spacing:0}
+:root[data-theme="playful"] .chip{color:#fff;background:var(--accent2);border:0;border-radius:var(--radius-chip)}
+:root[data-theme="playful"] .btn.primary{color:#fff}

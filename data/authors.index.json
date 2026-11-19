@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-11-19T19:15:00+08:00",
+  "note": "本地开发样例，由构建生成；上线前替换真实数据",
+  "authors": [
+    {
+      "id": "diandian",
+      "name": "点点",
+      "age": 6,
+      "class": "启蒙班",
+      "avatar": "assets/authors/diandian.webp",
+      "mainTeacher": "t-li",
+      "joinedAt": "2026-09-01",
+      "order": 1,
+      "visible": true,
+      "workCount": 12,
+      "categoryCount": 8,
+      "recentCover": "assets/works/diandian-2026-11-15-01/cover.webp",
+      "recentDate": "2026-11-15",
+      "recentTitle": "太阳下的小房子",
+      "recentCategory": "theme",
+      "recentWorkId": "diandian-2026-11-15-01"
+    },
+    {
+      "id": "xiaoyu",
+      "name": "小雨",
+      "age": 7,
+      "class": "启蒙班",
+      "avatar": "assets/authors/xiaoyu.webp",
+      "mainTeacher": "t-wang",
+      "joinedAt": "2026-11-10",
+      "order": 2,
+      "visible": true,
+      "workCount": 0,
+      "categoryCount": 0,
+      "recentCover": "",
+      "recentDate": ""
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "siteName": "小小美术馆",
+  "subtitle": "美术班 2026 秋季班作品墙",
+  "className": "周末美术班",
+  "intro": "每周一幅画，把想象挂上墙。",
+  "startYear": 2024,
+  "siteUrl": "https://gallery-xxx.gitee.io",
+  "contact": { "wechat": "xxx", "phone": "xxx" },
+  "teachers": {
+    "default": "t-li",
+    "note": "default 仅作最后兜底；单个孩子的主指导老师填在 authors.json.mainTeacher",
+    "list": [
+      { "id": "t-li", "name": "李老师", "title": "主教", "subject": "综合绘画", "since": "2024-09" },
+      { "id": "t-wang", "name": "王老师", "title": "素描专项", "subject": "素描/色彩" },
+      { "id": "t-zhao", "name": "赵老师", "title": "国画", "subject": "水墨/书法" }
+    ]
+  },
+  "terms": [
+    {
+      "term": "2026 秋季",
+      "start": "2026-09-01",
+      "end": "2027-01-10",
+      "segments": [
+        { "from": "2026-09-01", "to": "2026-10-25", "teacher": "t-li" },
+        { "from": "2026-10-26", "to": "2027-01-10", "teacher": "t-wang", "note": "李老师产假，素描专项接续至期末" }
+      ]
+    }
+  ],
+  "categories": [
+    { "id": "daily", "name": "日常练习", "order": 1, "color": "#8a8071", "desc": "每周课堂作业与随堂练习" },
+    { "id": "exam", "name": "考级训练", "order": 2, "color": "#3f5e8c", "desc": "为美术考级做的专项训练" },
+    { "id": "contest", "name": "竞赛作品", "order": 3, "color": "#c8553d", "desc": "参赛投稿与获奖作品" },
+    { "id": "sketch", "name": "写生", "order": 4, "color": "#4d7a52", "desc": "户外与静物写生" },
+    { "id": "theme", "name": "主题创作", "order": 5, "color": "#b0793c", "desc": "节庆、绘本、大型主题创作" },
+    { "id": "study", "name": "临摹研习", "order": 6, "color": "#6b5b7b", "desc": "名作临摹与技法分解" },
+    { "id": "craft", "name": "综合材料·手工", "order": 7, "color": "#9a6b4f", "desc": "版画、拼贴、陶艺、黏土等非平面作品" },
+    { "id": "ink", "name": "国画·书法", "order": 8, "color": "#45604f", "desc": "水墨、写意、白描与毛笔字" }
+  ],
+  "tags": {
+    "maxPerWork": 4,
+    "maxPerGroup": 2,
+    "groups": [
+      { "id": "subject", "name": "画什么", "max": 20, "items": ["动物", "人物", "风景", "建筑", "太空", "静物", "植物", "故事"] },
+      { "id": "style", "name": "怎么画", "max": 15, "items": ["暖色", "冷色", "线条", "明暗", "笔触", "构图", "留白"] },
+      { "id": "mood", "name": "什么感觉", "max": 12, "items": ["温暖", "安静", "欢快", "想象", "幽默"] }
+    ],
+    "aliases": { "宇宙": "太空", "外太空": "太空", "小猫": "动物" }
+  },
+  "landing": {
+    "mode": "authorPicker",
+    "title": "今天想看谁的画？",
+    "subtitle": "选一位小作者，进入他的作品墙",
+    "showAllWorksEntry": true,
+    "rememberLastAuthor": false,
+    "minAuthorsToShow": 1
+  },
+  "themes": {
+    "default": "gallery",
+    "allowUserSwitch": true,
+    "followSystem": true,
+    "list": ["gallery", "playful", "paper", "night"]
+  }
+}

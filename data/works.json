@@ -1,0 +1,423 @@
+{
+  "generatedAt": "2026-11-19T19:30:00+08:00",
+  "note": "本地开发样例，由构建生成；勿手改",
+  "authors": [
+    {
+      "id": "diandian",
+      "name": "点点",
+      "age": 6,
+      "class": "启蒙班",
+      "avatar": "assets/authors/diandian.webp",
+      "mainTeacher": "t-li",
+      "joinedAt": "2026-09-01",
+      "order": 1,
+      "visible": true,
+      "workCount": 12,
+      "categoryCount": 8,
+      "recentCover": "assets/works/diandian-2026-11-15-01/cover.webp",
+      "recentDate": "2026-11-15",
+      "recentTitle": "太阳下的小房子",
+      "recentCategory": "theme",
+      "recentWorkId": "diandian-2026-11-15-01"
+    },
+    {
+      "id": "xiaoyu",
+      "name": "小雨",
+      "age": 7,
+      "class": "启蒙班",
+      "avatar": "assets/authors/xiaoyu.webp",
+      "mainTeacher": "t-wang",
+      "joinedAt": "2026-11-10",
+      "order": 2,
+      "visible": true,
+      "workCount": 0,
+      "categoryCount": 0,
+      "recentCover": "",
+      "recentDate": ""
+    }
+  ],
+  "site": {
+    "siteName": "小小美术馆",
+    "siteUrl": "https://gallery-xxx.gitee.io",
+    "themes": {
+      "default": "gallery",
+      "allowUserSwitch": true,
+      "followSystem": true,
+      "list": [
+        "gallery",
+        "playful",
+        "paper",
+        "night"
+      ]
+    }
+  },
+  "works": [
+    {
+      "id": "diandian-2026-11-15-01",
+      "title": "太阳下的小房子",
+      "date": "2026-11-15",
+      "term": "2026 秋季",
+      "week": 12,
+      "lesson": "主题课 · 想象画",
+      "category": "theme",
+      "categoryDetail": {
+        "topic": "我的家",
+        "occasion": "科技节主题创作"
+      },
+      "medium": [
+        "水彩",
+        "蜡笔"
+      ],
+      "size": "A3",
+      "tags": [
+        "建筑",
+        "暖色",
+        "温暖"
+      ],
+      "summary": "把家搬到夕阳里，门口那棵树是给小鸟留的。",
+      "description": "孩子说，如果房子能晒到最多的太阳，一家人就会每天都暖暖的。",
+      "image": {
+        "cover": "assets/works/diandian-2026-11-15-01/cover.webp",
+        "full": "assets/works/diandian-2026-11-15-01/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.707
+      },
+      "featured": true,
+      "visible": true,
+      "createdAt": "2026-11-15T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-11-08-02",
+      "title": "海底的橙色大鱼",
+      "date": "2026-11-08",
+      "term": "2026 秋季",
+      "week": 11,
+      "category": "daily",
+      "medium": [
+        "水彩"
+      ],
+      "size": "A4",
+      "tags": [
+        "动物",
+        "冷色"
+      ],
+      "summary": "三条鱼在气泡里开会，橙色那条是班长。",
+      "description": "橙色大鱼负责点名，蓝色小鱼负责记录，最小的那条只负责吹泡泡。",
+      "image": {
+        "cover": "assets/works/diandian-2026-11-08-02/cover.webp",
+        "full": "assets/works/diandian-2026-11-08-02/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.75
+      },
+      "visible": true,
+      "createdAt": "2026-11-08T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-11-01-03",
+      "title": "粉色小猫与花",
+      "date": "2026-11-01",
+      "term": "2026 秋季",
+      "week": 10,
+      "category": "sketch",
+      "categoryDetail": {
+        "place": "小区花园",
+        "subject": "猫与花"
+      },
+      "medium": [
+        "彩铅",
+        "水彩"
+      ],
+      "size": "A4",
+      "tags": [
+        "动物",
+        "植物",
+        "安静"
+      ],
+      "summary": "猫的胡须画了七根，因为七是幸运数字。",
+      "description": "坐在花园台阶上画了二十分钟，回去又给猫加了一朵花。",
+      "image": {
+        "cover": "assets/works/diandian-2026-11-01-03/cover.webp",
+        "full": "assets/works/diandian-2026-11-01-03/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 1.25
+      },
+      "visible": true,
+      "createdAt": "2026-11-01T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-10-25-04",
+      "title": "秋天的树",
+      "date": "2026-10-25",
+      "term": "2026 秋季",
+      "week": 9,
+      "category": "theme",
+      "categoryDetail": {
+        "topic": "秋天",
+        "occasion": "秋季主题创作"
+      },
+      "medium": [
+        "水彩"
+      ],
+      "size": "A3",
+      "tags": [
+        "风景",
+        "暖色"
+      ],
+      "summary": "一片叶子都没扫，因为想留住秋天。",
+      "description": "用海绵印出树叶的肌理，再一层层叠上橙色和红色。",
+      "image": {
+        "cover": "assets/works/diandian-2026-10-25-04/cover.webp",
+        "full": "assets/works/diandian-2026-10-25-04/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.8
+      },
+      "visible": true,
+      "createdAt": "2026-10-25T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-10-18-05",
+      "title": "静物·窗边的光",
+      "date": "2026-10-18",
+      "term": "2026 秋季",
+      "week": 8,
+      "category": "exam",
+      "categoryDetail": {
+        "subject": "色彩",
+        "level": "三级"
+      },
+      "medium": [
+        "水粉"
+      ],
+      "size": "A3",
+      "tags": [
+        "静物",
+        "明暗"
+      ],
+      "summary": "第一次画出窗户投在桌上的影子。",
+      "description": "考级训练第三级：静物色彩与光影。影子画得比上学期稳多了。",
+      "image": {
+        "cover": "assets/works/diandian-2026-10-18-05/cover.webp",
+        "full": "assets/works/diandian-2026-10-18-05/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 1.25
+      },
+      "visible": true,
+      "createdAt": "2026-10-18T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-10-11-06",
+      "title": "星空下的赛车",
+      "date": "2026-10-11",
+      "term": "2026 秋季",
+      "week": 7,
+      "category": "contest",
+      "categoryDetail": {
+        "name": "少儿美术创意大赛",
+        "award": "gold",
+        "level": "金奖"
+      },
+      "medium": [
+        "马克笔",
+        "丙烯"
+      ],
+      "size": "A3",
+      "tags": [
+        "太空",
+        "想象",
+        "欢快"
+      ],
+      "summary": "赛车开到土星环上，终点站是一颗会发光的糖。",
+      "description": "参赛作品。孩子把赛道画成螺旋形，说这样车可以一直开，不会停下来。",
+      "image": {
+        "cover": "assets/works/diandian-2026-10-11-06/cover.webp",
+        "full": "assets/works/diandian-2026-10-11-06/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.707
+      },
+      "visible": true,
+      "createdAt": "2026-10-11T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-10-04-07",
+      "title": "纸浆小花盘",
+      "date": "2026-10-04",
+      "term": "2026 秋季",
+      "week": 6,
+      "category": "craft",
+      "medium": [
+        "纸浆",
+        "丙烯"
+      ],
+      "size": "20cm",
+      "tags": [
+        "植物",
+        "暖色"
+      ],
+      "summary": "第一次把纸浆压成盘子，晾干后涂了颜色。",
+      "description": "纸浆晾了一周才干。孩子坚持每个花瓣都要不一样的颜色。",
+      "image": {
+        "cover": "assets/works/diandian-2026-10-04-07/cover.webp",
+        "full": "assets/works/diandian-2026-10-04-07/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.9
+      },
+      "visible": true,
+      "createdAt": "2026-10-04T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-09-27-08",
+      "title": "我的文具朋友",
+      "date": "2026-09-27",
+      "term": "2026 秋季",
+      "week": 5,
+      "category": "daily",
+      "medium": [
+        "彩铅"
+      ],
+      "size": "A4",
+      "tags": [
+        "静物",
+        "幽默"
+      ],
+      "summary": "铅笔盒里开了一场无声的晚会。",
+      "description": "橡皮负责跳舞，尺子负责打拍子，铅笔一直抢着当主持人。",
+      "image": {
+        "cover": "assets/works/diandian-2026-09-27-08/cover.webp",
+        "full": "assets/works/diandian-2026-09-27-08/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.707
+      },
+      "visible": true,
+      "createdAt": "2026-09-27T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-09-20-09",
+      "title": "水彩渐变练习",
+      "date": "2026-09-20",
+      "term": "2026 秋季",
+      "week": 4,
+      "category": "exam",
+      "categoryDetail": {
+        "subject": "色彩",
+        "level": "二级"
+      },
+      "medium": [
+        "水彩"
+      ],
+      "size": "A4",
+      "tags": [
+        "冷色",
+        "构图"
+      ],
+      "summary": "从深蓝到浅蓝，画了一整页的天空。",
+      "description": "考级训练第二级：渐变与 wet-on-wet。控制水分比上学期好一些了。",
+      "image": {
+        "cover": "assets/works/diandian-2026-09-20-09/cover.webp",
+        "full": "assets/works/diandian-2026-09-20-09/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 1.2
+      },
+      "visible": true,
+      "createdAt": "2026-09-20T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-09-13-10",
+      "title": "机器人乐园",
+      "date": "2026-09-13",
+      "term": "2026 秋季",
+      "week": 3,
+      "category": "contest",
+      "categoryDetail": {
+        "name": "校园科技节绘画比赛",
+        "award": "silver",
+        "level": "二等奖"
+      },
+      "medium": [
+        "马克笔"
+      ],
+      "size": "A3",
+      "tags": [
+        "太空",
+        "想象",
+        "欢快"
+      ],
+      "summary": "机器人也要放暑假，它们去了云上的游乐场。",
+      "description": "参赛作品。画面里每个机器人都长着不一样的手，用来拿不同的玩具。",
+      "image": {
+        "cover": "assets/works/diandian-2026-09-13-10/cover.webp",
+        "full": "assets/works/diandian-2026-09-13-10/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.707
+      },
+      "visible": true,
+      "createdAt": "2026-09-13T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-09-06-11",
+      "title": "临摹·向日葵",
+      "date": "2026-09-06",
+      "term": "2026 秋季",
+      "week": 2,
+      "category": "study",
+      "teacher": "t-zhao",
+      "teacherNote": "国画体验课，赵老师代课",
+      "medium": [
+        "水墨",
+        "彩墨"
+      ],
+      "size": "A4",
+      "tags": [
+        "植物",
+        "笔触"
+      ],
+      "summary": "第一次用毛笔画向日葵，叶子比花还神气。",
+      "description": "名作临摹与技法分解。重点练习中锋用笔和墨色浓淡。",
+      "image": {
+        "cover": "assets/works/diandian-2026-09-06-11/cover.webp",
+        "full": "assets/works/diandian-2026-09-06-11/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.8
+      },
+      "visible": true,
+      "createdAt": "2026-09-06T10:30:00+08:00"
+    },
+    {
+      "id": "diandian-2026-08-30-12",
+      "title": "雨后小花园",
+      "date": "2026-08-30",
+      "term": "2026 秋季",
+      "week": 1,
+      "category": "daily",
+      "medium": [
+        "水彩"
+      ],
+      "size": "A4",
+      "tags": [
+        "植物",
+        "温暖"
+      ],
+      "summary": "雨停了，蜗牛在叶子上留下一条亮亮的线。",
+      "description": "开学第一课。观察雨后花园，找一找哪些颜色是雨水洗过的。",
+      "image": {
+        "cover": "assets/works/diandian-2026-08-30-12/cover.webp",
+        "full": "assets/works/diandian-2026-08-30-12/full.webp",
+        "width": 1600,
+        "height": 1131,
+        "ratio": 0.707
+      },
+      "visible": true,
+      "createdAt": "2026-08-30T10:30:00+08:00"
+    }
+  ]
+}

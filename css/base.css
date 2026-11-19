@@ -1,0 +1,61 @@
+/* base.css — reset + 基础层 token + gallery 默认 token（无 JS 时的兜底） */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  /* 基础层：布局不随主题变化 */
+  --gap:26px;
+  --card-min:260px;
+  --nav-h:68px;
+  --tab-h:56px;
+  --subnav-h:58px;
+  --ease:200ms;
+
+  /* 主题层默认值：gallery（主题文件覆盖） */
+  --bg:#f7f4ee;
+  --paper:#fffdf8;
+  --ink:#2b2622;
+  --sub:#6b625a;
+  --line:#e3dccf;
+  --accent:#c8553d;
+  --mat:#f1e8d6;
+  --accent2:transparent;
+  --card-shadow:0 12px 26px rgba(70,52,32,.11);
+  --chip-line:rgba(200,85,61,.35);
+  --accent-text:#a94530;
+  --faint:#a19585;
+  --focus:#c8553d;
+  --skeleton:#e9e2d6;
+  --pin:radial-gradient(circle at 32% 30%,#e8937f,#c8553d 60%,#8d3a28);
+  --pop:#fffdf8;
+  --scrim:rgba(35,28,22,.5);
+
+  /* 形态 token */
+  --serif:"Songti SC","Noto Serif SC","SimSun",serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:6px;
+  --radius-chip:2px;
+  --tilt-a:-.6deg;
+  --tilt-b:.45deg;
+  --texture:repeating-linear-gradient(0deg,rgba(120,100,70,.5) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(120,100,70,.35) 0 1px,transparent 1px 4px);
+  --texture-opacity:.05;
+  --pin-display:block;
+  --tab-line-h:2px;
+  --tab-line-radius:0;
+}
+html,body{height:100%}
+body{
+  background:var(--bg);color:var(--ink);font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;overflow:hidden;
+  transition:background-color var(--ease),color var(--ease);
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;
+  background-image:var(--texture);opacity:var(--texture-opacity);
+}
+#app{height:100%;display:flex;flex-direction:column;position:relative;min-height:0}
+.view{flex:1;min-height:0;overflow-y:auto;position:relative}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+::selection{background:var(--accent-text);color:var(--paper)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}

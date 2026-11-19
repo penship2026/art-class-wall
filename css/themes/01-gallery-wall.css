@@ -1,0 +1,14 @@
+/* gallery 展墙（默认） */
+:root[data-theme="gallery"]{
+  --bg:#f7f4ee;--paper:#fffdf8;--ink:#2b2622;--sub:#6b625a;--line:#e3dccf;
+  --accent:#c8553d;--mat:#f1e8d6;--accent2:transparent;
+  --card-shadow:0 12px 26px rgba(70,52,32,.11);
+  --chip-line:rgba(200,85,61,.35);--accent-text:#a94530;--faint:#a19585;--focus:#c8553d;
+  --skeleton:#e9e2d6;--pin:radial-gradient(circle at 32% 30%,#e8937f,#c8553d 60%,#8d3a28);
+  --pop:#fffdf8;--scrim:rgba(35,28,22,.5);
+  --serif:"Songti SC","Noto Serif SC","SimSun",serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:6px;--radius-chip:2px;--tilt-a:-.6deg;--tilt-b:.45deg;
+  --texture:repeating-linear-gradient(0deg,rgba(120,100,70,.5) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(120,100,70,.35) 0 1px,transparent 1px 4px);
+  --texture-opacity:.05;--pin-display:block;--tab-line-h:2px;--tab-line-radius:0;
+}

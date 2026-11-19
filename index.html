@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="gallery">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <link rel="icon" href="data:,">
+  <title>小小美术馆 · 美术班作品墙</title>
+  <meta name="description" content="每周一幅画，把想象挂上墙。美术班学员作品在线作品墙。">
+  <meta property="og:title" content="小小美术馆 · 美术班作品墙">
+  <meta property="og:description" content="每周一幅画，把想象挂上墙。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gallery-xxx.gitee.io/">
+  <meta property="og:image" content="https://gallery-xxx.gitee.io/assets/works/diandian-2026-11-15-01/cover.jpg">
+  <script>
+    (function () {
+      try {
+        var t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('theme') || 'gallery';
+        var sys = matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'gallery';
+        document.documentElement.dataset.theme = (t === 'system' || t === 'auto') ? sys : t;
+      } catch (e) { document.documentElement.dataset.theme = 'gallery'; }
+    })();
+  </script>
+  <link rel="stylesheet" href="./css/base.css?v=20261119">
+  <link rel="stylesheet" href="./css/themes.bundle.css?v=20261119">
+  <link rel="stylesheet" href="./css/site.css?v=20261119">
+  <link rel="stylesheet" href="./css/components.css?v=20261119">
+</head>
+<body>
+  <div id="app">
+    <noscript>
+      <div style="padding:40px;font-family:serif">
+        <h1>小小美术馆</h1>
+        <p>本作品墙需要 JavaScript 才能浏览作品。请开启浏览器脚本后刷新。</p>
+      </div>
+    </noscript>
+  </div>
+  <script src="./data/data.js?v=20261119"></script>
+  <script src="./js/util.js?v=20261119"></script>
+  <script src="./js/store.js?v=20261119"></script>
+  <script src="./js/layout.js?v=20261119"></script>
+  <script src="./js/theme.js?v=20261119"></script>
+  <script src="./js/view-students.js?v=20261119"></script>
+  <script src="./js/view-list.js?v=20261119"></script>
+  <script src="./js/view-detail.js?v=20261119"></script>
+  <script src="./js/app.js?v=20261119"></script>
+</body>
+</html>

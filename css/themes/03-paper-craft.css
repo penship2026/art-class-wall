@@ -1,0 +1,18 @@
+/* paper 素纸 */
+:root[data-theme="paper"]{
+  --bg:#ffffff;--paper:#ffffff;--ink:#1a1a1a;--sub:#6b6b6b;--line:#e6e6e6;
+  --accent:#1a1a1a;--mat:#ffffff;--accent2:transparent;
+  --card-shadow:none;--chip-line:rgba(26,26,26,.25);--accent-text:#1a1a1a;--faint:#999999;--focus:#1a1a1a;
+  --skeleton:#eeeeee;--pin:none;--pop:#ffffff;--scrim:rgba(0,0,0,.45);
+  --serif:"Helvetica Neue",Arial,sans-serif;
+  --sans:"Helvetica Neue",Arial,sans-serif;
+  --radius-card:0;--radius-chip:0;--tilt-a:0deg;--tilt-b:0deg;
+  --texture:none;--texture-opacity:0;--pin-display:none;--tab-line-h:2px;--tab-line-radius:0;
+}
+:root[data-theme="paper"] .card{box-shadow:none;border:1px solid var(--line);transform:none;border-radius:0}
+:root[data-theme="paper"] .scard{box-shadow:none;border:1px solid var(--line);transform:none;border-radius:0}
+:root[data-theme="paper"] .nav,
+:root[data-theme="paper"] .subnav,
+:root[data-theme="paper"] .tabs,
+:root[data-theme="paper"] .filterbar{background:#fff}
+:root[data-theme="paper"] .btn.primary{color:#fff}

@@ -1,0 +1,18 @@
+/* night 夜展 */
+:root[data-theme="night"]{
+  --bg:#14120f;--paper:#1c1915;--ink:#ece3d3;--sub:#a2977f;--line:#2f2a22;
+  --accent:#d9a441;--mat:#efe4cf;--accent2:transparent;
+  --card-shadow:0 16px 30px rgba(0,0,0,.5);
+  --chip-line:rgba(217,164,65,.4);--accent-text:#d9a441;--faint:#7e7462;--focus:#d9a441;
+  --skeleton:#26221c;--pin:radial-gradient(circle at 32% 30%,#f0cd80,#d9a441 60%,#8a6420);
+  --pop:#1c1915;--scrim:rgba(0,0,0,.65);
+  --serif:"Songti SC","Noto Serif SC","SimSun",serif;
+  --sans:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --radius-card:6px;--radius-chip:2px;--tilt-a:-.5deg;--tilt-b:.5deg;
+  --texture:none;--texture-opacity:0;--pin-display:block;--tab-line-h:2px;--tab-line-radius:0;
+}
+:root[data-theme="night"] .card .img{border:8px solid var(--mat)}
+:root[data-theme="night"] .subnav,
+:root[data-theme="night"] .tabs,
+:root[data-theme="night"] .filterbar{background:rgba(28,25,21,.55)}
+:root[data-theme="night"] .btn.primary{color:#1c1915}
